@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '24'
 
       # 3️⃣ Instalar dependências
       - name: Install dependencies
@@ -28,7 +28,7 @@ jobs:
 
       # 4️⃣ Exibir mensagem no console
       - name: Show message
-        run: echo "🚀 Iniciando CI para CineBook SaaS!"
+        run: echo "🚀 Iniciando CI para CineNote!"
 
       # 5️⃣ Rodar build do projeto React
       - name: Run build
