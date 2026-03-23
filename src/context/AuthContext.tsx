@@ -2,7 +2,7 @@ import { createContext, useContext, useState, ReactNode } from 'react';
 import type { User, Screen } from '../types';
 
 const DEMO_USERS: User[] = [
-  { name: 'Demo', email: 'susk@gmail.com', password: '123456' },
+  { name: 'Susk', email: 'susk@gmail.com', password: '123456' },
 ];
 
 interface AuthContextValue {

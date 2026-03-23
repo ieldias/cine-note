@@ -15,7 +15,7 @@ export function LoginForm() {
   return (
     <>
       <h2>ENTRAR</h2>
-      <p>Bem-vindo. Acesse sua conta.</p>
+      <p>Bem-vindo de volta. Acesse sua conta.</p>
 
       <div className="form-group">
         <label className="form-label">E-mail</label>
@@ -45,7 +45,7 @@ export function LoginForm() {
       <button className="btn-primary" onClick={handleSubmit}>Entrar</button>
 
       <p style={{ fontSize: 12, color: 'var(--txt-muted)', marginTop: 10, textAlign: 'center' }}>
-        Demo: susk@gmail.com / 123456
+        Teste: susk@gmail.com / 123456
       </p>
 
       <div className="auth-switch">

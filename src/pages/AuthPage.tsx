@@ -12,13 +12,13 @@ export function AuthPage() {
       <div className="auth-left">
         <div className="auth-brand">
           <div className="auth-brand-icon">🎬</div>
-          <div className="auth-brand-name">CINEBOOK</div>
+          <div className="auth-brand-name">CINETRACK</div>
         </div>
         <div className="auth-tagline">
           <h1>SEU <span>DIÁRIO</span><br />CINEMATOGRÁFICO</h1>
           <p>Registre, avalie e organize tudo que você assiste num só lugar. Filmes, séries e mais.</p>
         </div>
-        <p style={{ color: '#5C5854', fontSize: 13 }}>© 2026 CineBook</p>
+        <p style={{ color: '#5C5854', fontSize: 13 }}>© 2024 CineTrack. Feito com ♥</p>
       </div>
 
       <div className="auth-right" style={{ position: 'relative' }}>
