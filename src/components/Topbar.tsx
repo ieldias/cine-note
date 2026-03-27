@@ -10,7 +10,7 @@ export function Topbar() {
   return (
     <div className="topbar">
       <div className="topbar-left">
-        <h1>CINETRACK</h1>
+        <h1>CINENOTE</h1>
         <p>Olá, {name.split(' ')[0]}! Bom ver você.</p>
       </div>
       <div className="topbar-right">
